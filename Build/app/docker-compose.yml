@@ -11,3 +11,14 @@ services:
       - ../../frontend:/usr/src/app
     ports:
       - "8000:8000"
+  facerecog:
+    build:
+      context: .
+      dockerfile: Dockerfile.facerecog
+    image: facerecog_img
+    container_name: facerecog_container
+    tty: true
+    volumes:
+      - ../../facerecog_api:/usr/src/app
+    ports:
+      - "5000:5000"
