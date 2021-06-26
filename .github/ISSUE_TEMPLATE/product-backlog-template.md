@@ -2,18 +2,20 @@
 name: Product Backlog Template
 about: Product Backlog
 title: ''
-labels: ''
+labels: product backlog
 assignees: ''
 
 ---
 
 ## 概要
 ### Why
-ユーザは自分の顔を登録して顔認証したいため
+XXXXXXXXXXしたいため
 ### 完了の定義
+- [ ] XXXXXXXX
+- [ ] XXXXXXXX
 ### ストーリーポイント
+0
 ### タスク
-- [ ] Frontendサーバコンテナを作成する
-- [ ] Frontendサーバにユーザ登録画面を実装する
+- [ ] XXXXXXXX
+- [ ] XXXXXXXX
 ### 備考
-
